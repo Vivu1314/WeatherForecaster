@@ -53,7 +53,7 @@ async function changeWeatherUI() {
 
         //change body background
         const imageBodyName = data.current.condition.text.toLowerCase()
-        const imageBodyPath = `linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('${imageBodyName}.jpg') no-repeat center/cover`
+        const imageBodyPath = `linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('Images/background/${imageBodyName}.jpg') no-repeat center/cover`
         document.body.style.background = imageBodyPath
 
         //change weather background

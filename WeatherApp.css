@@ -109,17 +109,17 @@ min-height: 540px;
 }
 
 .hot {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(hot.jpg) no-repeat center/cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(Images/weather/hot.jpg) no-repeat center/cover;
 }
 .warm {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(warm.jpg) no-repeat center/cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(Images/weather/warm.jpg) no-repeat center/cover;
 }
 
 .cold {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(cold.jpg) no-repeat center/cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(Images/weather/cool.jpg) no-repeat center/cover;
 }
 
 .cool {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(cool.jpg) no-repeat center/cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(Images/weather/cold.jpg) no-repeat center/cover;
 }
 
