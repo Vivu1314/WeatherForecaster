@@ -38,7 +38,7 @@ let weather = document.querySelector('#weather')
 async function changeWeatherUI() {
     try {
         let capitalSearch = search.value.trim()
-        let APIURL = `http://api.weatherapi.com/v1/current.json?key=b73756f5a41c478d905142804230204&q=${capitalSearch}&aqi=no`
+        let APIURL = `https://api.weatherapi.com/v1/current.json?key=b73756f5a41c478d905142804230204&q=${capitalSearch}&aqi=no`
         let data = await fetch(APIURL).then(res => res.json())
         console.log(data)
         city.innerText = data.location.name
