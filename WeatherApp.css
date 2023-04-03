@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+}
+
+#weather {
+    max-width: 300px;
+    min-width: 300px;
+    border-radius: 010px;
+    padding: 30px 20px;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(Weather_summer.jpg) no-repeat center/cover; */
+    box-shadow: 0px 0px 30px rgba(0255, 0255, 0255, 0.8);
+max-height: 600px;
+min-height: 540px;
+}
+
+.search {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 2px 15px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+    color: white;
+}
+
+.search:focus {
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 15px 2px;
+    box-shadow: 0px 0px 20px rgba(0255, 0255, 0255, 0.8);
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.capital {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+    font-size: 15px;
+    margin: 0px 0 20px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.temperature {
+    font-size: 35px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 20%;
+    cursor: pointer;
+    transition: 0.5s;
+    perspective: 1000px; /* Đặt giá trị perspective để tạo hiệu ứng 3D */
+}
+
+.short-desc {
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    margin: 25px 0 35px;
+}
+
+.more-desc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.more-desc div {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.nothing {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+}
+
+.nothing #weather{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+}
+
+.hot {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(hot.jpg) no-repeat center/cover;
+}
+.warm {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(warm.jpg) no-repeat center/cover;
+}
+
+.cold {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(cold.jpg) no-repeat center/cover;
+}
+
+.cool {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(cool.jpg) no-repeat center/cover;
+}
+
