@@ -78,7 +78,6 @@ async function changeWeatherUI() {
         visibility.innerText = " m"
         wind.innerText = " kph"
         humidity.innerText = " %"
-        document.body.style.background = imageBodyPath
         // body.setAttribute('class', 'nothing')
     }
 }
